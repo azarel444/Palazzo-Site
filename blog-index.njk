@@ -17,19 +17,20 @@ permalink: "blog/index.html"
       <h1>Blog</h1>
 
       {% set posts = collections.blog | reverse %}
-      {% if posts and posts.length %}
-        <ul>
-          {% for p in posts %}
-            <li style="margin: 14px 0;">
-             <a href="/blog/{{ p.filePathStem | replace('/blog/','') }}/"><strong>{{ p.data.title }}</strong></a><br>
-              <small>{{ p.data.date | date: "%B %d, %Y" }}</small>
-              {% if p.data.description %}<div>{{ p.data.description }}</div>{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      {% else %}
-        <p>No posts yet.</p>
-      {% endif %}
+{% if posts and posts.length %}
+  <ul>
+    {% for p in posts %}
+      <li style="margin: 14px 0;">
+        <a href="{{ p.url }}"><strong>{{ p.data.title }}</strong></a><br>
+        <small>{{ p.date }}</small>
+        {% if p.data.description %}<div>{{ p.data.description }}</div>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No posts yet.</p>
+{% endif %}
+
     </main>
   </body>
 </html>
