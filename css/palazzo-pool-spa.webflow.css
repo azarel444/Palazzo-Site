@@ -1,0 +1,874 @@
+.section {
+  background-color: #0000;
+  background-image: linear-gradient(#fff0 74%, #000 95%), radial-gradient(circle, #0000001c 18%, #000 82%);
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+.body {
+  background-color: #000;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.logo {
+  filter: drop-shadow(0 5px 5px #000000f2);
+  background-image: url('../images/palazzologo.avif');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25%;
+  height: 25%;
+}
+
+.heading {
+  filter: drop-shadow(0 2px 2px #000);
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.field-label, .email, .message, .phone {
+  color: #fff;
+}
+
+.submit-button {
+  text-align: left;
+  background-color: #ecc238;
+  border-radius: 8px;
+}
+
+.form-block {
+  filter: drop-shadow(0 2px 5px #000000b3);
+  -webkit-backdrop-filter: blur(13px);
+  backdrop-filter: blur(13px);
+  text-align: left;
+  background-color: #00000045;
+  border: 1px solid #ecc238;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.headingmain {
+  filter: drop-shadow(0 2px 1px #000);
+  color: #ecc238;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Great Vibes, cursive;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.success-message {
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.error-message {
+  color: red;
+  background-color: #000;
+}
+
+.background-video {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100dvw;
+  height: 100dvh;
+  padding: 100px;
+  display: flex;
+}
+
+.background-video.mobile {
+  display: none;
+}
+
+.palazzologo {
+  filter: drop-shadow(0 2px 1px #000);
+  align-self: center;
+  width: 300px;
+}
+
+.bodytext {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 14px;
+  display: flex;
+}
+
+.div-block {
+  display: none;
+}
+
+.name {
+  border-radius: 8px;
+}
+
+.body-2 {
+  background-color: #000;
+}
+
+.section-2 {
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.background-video-2 {
+  background-image: linear-gradient(#0000 79%, #000), radial-gradient(circle, #0000, #000 92%);
+  width: 100%;
+  height: 100%;
+}
+
+.div-block-2 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  background-image: linear-gradient(#000, #0000 100%, #fff);
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.div-block-3 {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 150px;
+  display: flex;
+}
+
+.div-block-4 {
+  width: 50%;
+  height: 100%;
+}
+
+.link {
+  color: #fff;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 24px;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.link:focus {
+  color: #e6be22;
+}
+
+.heading-2 {
+  color: #e6be22;
+  font-family: Great Vibes, cursive;
+  font-size: 38px;
+}
+
+.swflorida {
+  filter: drop-shadow(0 2px 1px #000);
+  color: #e6be22;
+  font-family: Great Vibes, cursive;
+  font-size: 8rem;
+  line-height: 8rem;
+}
+
+.heading-3 {
+  filter: drop-shadow(0 2px #000);
+  color: #e6be22;
+  font-family: Great Vibes, cursive;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.image {
+  filter: drop-shadow(0 2px 2px #000);
+}
+
+.div-block-5 {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.image-2, .image-3, .image-4, .image-5, .image-6, .image-7 {
+  height: 150px;
+}
+
+.div-block-6 {
+  border: 1px #fff;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.div-block-7 {
+  background-image: linear-gradient(90deg, #000, #0000 11% 90%, #000);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.image-8 {
+  height: 150px;
+}
+
+.text-field, .text-field-2, .textarea {
+  border-radius: 8px;
+}
+
+.div-block-8 {
+  text-align: center;
+  flex-flow: column;
+  align-self: auto;
+  display: flex;
+}
+
+.body-3 {
+  background-color: #000;
+  height: 100dvh;
+}
+
+.background-video-3 {
+  flex-flow: column;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.section-3 {
+  background-image: linear-gradient(#fff0 75%, #000), radial-gradient(circle, #00000059 24%, #000000d9 52%, #000 93%);
+  height: 100%;
+}
+
+.div-block-9 {
+  justify-content: space-between;
+  height: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.div-block-10 {
+  width: auto;
+  height: 80px;
+}
+
+.image-9 {
+  height: 80px;
+}
+
+.navbar {
+  background-color: #0000;
+  height: 80px;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  display: flex;
+}
+
+.nav-menu {
+  border: 1px solid #0000;
+}
+
+.nav-link {
+  color: #ffc73b;
+  border: 1px solid #0000;
+}
+
+.nav-link:focus {
+  color: #fff;
+}
+
+.nav-link-2, .nav-link-3 {
+  color: #ffc73b;
+}
+
+.div-block-11 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.headline {
+  filter: drop-shadow(0 2px #000);
+  color: #ecc238;
+  text-align: center;
+  -webkit-text-stroke-color: #ecc23800;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#c34100, #ecc238 59%), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 0 0, 0 0;
+  background-size: auto, auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Great Vibes, cursive;
+  font-size: 2.6rem;
+  line-height: 3rem;
+}
+
+.headline.orangegradient {
+  background-image: none;
+}
+
+.headline.gradients {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#b26800, #ffd64f);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.subheading {
+  filter: drop-shadow(0 2px #000);
+  text-align: center;
+  font-family: Vollkorn, serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.div-block-12 {
+  grid-column-gap: 35px;
+  grid-row-gap: 35px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.portfoliobutton {
+  filter: drop-shadow(0 2px 1px #000000b3);
+  text-shadow: 0 1px 1px #000;
+  background-color: #ecc238;
+  background-image: linear-gradient(#ecc238, #b26800);
+  border-radius: 8px;
+}
+
+.designbookbutton {
+  filter: drop-shadow(0 2px 1px #000000b3);
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+  background-color: #ecc238;
+  background-image: linear-gradient(#ecc238, #ec9538);
+  border-radius: 8px;
+}
+
+.designbookbutton.cta {
+  background-image: linear-gradient(#ecc238, #b26800);
+}
+
+.renderexamples {
+  background-color: #001523;
+  background-image: linear-gradient(#000, #0015232b 55%, #000);
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.heading-4 {
+  text-align: center;
+  font-family: Great Vibes, cursive;
+}
+
+.seethelevel {
+  color: #ecc238;
+  font-size: 2.6rem;
+  line-height: 3rem;
+}
+
+.div-block-13 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.heading-5, .see-the-level-of-design-we-deliver {
+  color: #fff;
+  text-align: center;
+  font-family: Great Vibes, cursive;
+}
+
+.image-10 {
+  height: 300px;
+  box-shadow: 9px 7px 9px #0009;
+}
+
+.div-block-14 {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 41px;
+  display: flex;
+}
+
+.everyprojectbeginswith {
+  color: #ecc238;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.everyprojectbeginswith.headline {
+  filter: drop-shadow(0 2px #000);
+  background-image: linear-gradient(#b26800, #ffd64f);
+}
+
+.everyprojectbegins {
+  color: #fff;
+  text-align: center;
+  font-family: Vollkorn, serif;
+}
+
+.everyproject {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.palazzo-experience {
+  background-image: linear-gradient(#000, #000000ba 26%, #0000006e 53%, #0000008f 70%, #000);
+  background-position: 0 0;
+  background-size: auto;
+  width: 100%;
+  height: 600px;
+}
+
+.thepalazzoexperience {
+  color: #ecc238;
+  text-align: center;
+  text-shadow: 0 1px 1px #000;
+  font-family: Great Vibes, cursive;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.thepalazzoexperience.headline {
+  text-shadow: none;
+  background-image: linear-gradient(#b26800, #ffd64f);
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 2.5rem;
+}
+
+.text-block {
+  color: #fff;
+  text-align: center;
+  width: 70%;
+  font-family: Vollkorn, serif;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.designyourdream {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 1px #000;
+  font-family: Vollkorn, serif;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.div-block-15 {
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  padding-left: 140px;
+  padding-right: 140px;
+  display: flex;
+}
+
+.video {
+  width: auto;
+  height: auto;
+}
+
+.paragraph {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 1px #000;
+  width: 60%;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-family: Vollkorn, serif;
+}
+
+.image-11 {
+  filter: drop-shadow(0 12px 5px #000000b3);
+  border: 1px solid #373019;
+  height: 350px;
+  display: block;
+  box-shadow: 0 2px 20px 1px #2c250e;
+}
+
+.image-11.mobile {
+  display: none;
+}
+
+.div-block-16 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-image: radial-gradient(circle, #000000c9, #000 62%), url('../images/waterrippple.jpg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.palazzoexperiencebooking {
+  background-color: #ecc238;
+  border-radius: 8px;
+}
+
+.palazzoexperiencebooking.designbookbutton {
+  background-image: linear-gradient(#ecc238, #b26800);
+}
+
+.italic-text {
+  text-shadow: 0 1px 1px #000;
+}
+
+.div-block-17 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.ourprocess {
+  background-image: linear-gradient(#000, #0000 42% 73%, #000), linear-gradient(#0e213dc4, #0e213dc4), url('../images/waterrippple.jpg');
+  background-position: 0 0, 0 0, 50%;
+  background-size: auto, auto, cover;
+  flex-flow: column;
+  width: 100%;
+  height: 500px;
+  padding-top: 60px;
+  display: flex;
+}
+
+.aprovenprocess {
+  color: #fff;
+  text-align: center;
+  font-family: Great Vibes, cursive;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.div-block-18 {
+  -webkit-backdrop-filter: brightness(32%) sepia();
+  backdrop-filter: brightness(32%) sepia();
+  width: 100%;
+  height: 100%;
+  padding: 60px 140px;
+}
+
+.ouprocess {
+  background-image: linear-gradient(#000, #0000 16%), radial-gradient(circle, #0000, #000 78%), url('../images/486525764_1060566316090980_5304657300833425711_n.avif');
+  background-position: 0 0, 0 0, 50%;
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.div-block-19 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  filter: drop-shadow(4px 4px 3px #000000c9);
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.div-block-20 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  background-color: #000000b3;
+  border: 1px solid #515151;
+  border-radius: 8px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+.text-block-2 {
+  color: #ecc238;
+  font-family: Great Vibes, cursive;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-block-3 {
+  font-family: Great Vibes, cursive;
+}
+
+.bold-text {
+  color: #ecc238;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-block-4 {
+  color: #ecc238;
+  text-align: center;
+  font-family: Great Vibes, cursive;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-block-5 {
+  color: #fff;
+  text-align: center;
+  font-family: Vollkorn, serif;
+}
+
+.bold-text-2 {
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .body {
+    background-color: #000;
+    height: auto;
+  }
+
+  .form-block {
+    width: auto;
+    height: auto;
+  }
+
+  .headingmain {
+    display: flex;
+  }
+
+  .headingmain.mobile, .background-video {
+    display: none;
+  }
+
+  .background-video.mobile {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: column;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+  }
+
+  .palazzologo {
+    width: 250px;
+  }
+
+  .bodytext {
+    width: 80%;
+    height: auto;
+  }
+
+  .div-block {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .text-field-3, .text-field-4, .text-field-5, .textarea-2 {
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .body {
+    height: auto;
+  }
+
+  .form-block {
+    width: auto;
+  }
+
+  .background-video {
+    height: auto;
+    display: none;
+  }
+
+  .background-video.mobile {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: column;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .palazzologo {
+    width: 250px;
+  }
+
+  .bodytext {
+    width: 90%;
+  }
+
+  .div-block {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .body {
+    height: auto;
+  }
+
+  .heading {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .headingmain {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+  }
+
+  .background-video.mobile {
+    grid-column-gap: 13px;
+    grid-row-gap: 13px;
+    flex-flow: column;
+    justify-content: space-around;
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .palazzologo {
+    width: 150px;
+  }
+
+  .bodytext {
+    width: 100%;
+  }
+
+  .div-block {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+  }
+
+  .background-video-3 {
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-3 {
+    height: auto;
+  }
+
+  .div-block-11 {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .div-block-12 {
+    flex-flow: column;
+  }
+
+  .renderexamples {
+    padding: 20px;
+  }
+
+  .div-block-14 {
+    flex-flow: column;
+  }
+
+  .palazzo-experience {
+    height: auto;
+  }
+
+  .div-block-15 {
+    flex-flow: column;
+    padding-bottom: 40px;
+  }
+
+  .image-11 {
+    display: none;
+  }
+
+  .div-block-18 {
+    padding-top: 20px;
+  }
+
+  .div-block-19 {
+    flex-flow: column;
+  }
+}
+
+
