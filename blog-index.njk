@@ -9,30 +9,40 @@ permalink: "blog/index.html"
     <meta charset="utf-8" />
     <title>Blog</title>
     <meta name="description" content="Palazzo Pool & Spa insights and project updates.">
-<style>body{background:#fff;color:#000;font-family:system-ui;padding:24px} a{color:#000}</style>
-
+    <style>
+      body {
+        background: #fff;
+        color: #000;
+        font-family: system-ui;
+        padding: 24px;
+      }
+      a {
+        color: #000;
+      }
+    </style>
   </head>
   <body>
     <main style="max-width:900px;margin:40px auto;">
       <h1>Blog</h1>
 
       {% set posts = collections.blog | reverse %}
-{% if posts and posts.length %}
-  <ul>
-    {% for p in posts %}
-      <li style="margin: 14px 0;">
-        <a href="{{ p.url }}"><strong>{{ p.data.title }}</strong></a><br>
-<small>{{ p.date }}</small>
-
-        {% if p.data.description %}<div>{{ p.data.description }}</div>{% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-{% else %}
-  <p>No posts yet.</p>
-{% endif %}
-
+      {% if posts and posts.length %}
+        <ul>
+          {% for p in posts %}
+            <li style="margin: 14px 0;">
+              <a href="{{ p.url }}">
+                <strong>{{ p.data.title }}</strong>
+              </a><br>
+              <small>{{ p.date }}</small>
+              {% if p.data.description %}
+                <div>{{ p.data.description }}</div>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>No posts yet.</p>
+      {% endif %}
     </main>
   </body>
 </html>
-
