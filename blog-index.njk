@@ -22,7 +22,8 @@ permalink: "blog/index.html"
     {% for p in posts %}
       <li style="margin: 14px 0;">
         <a href="{{ p.url }}"><strong>{{ p.data.title }}</strong></a><br>
-        <small>{{ p.date }}</small>
+<small>{{ p.date }}</small>
+
         {% if p.data.description %}<div>{{ p.data.description }}</div>{% endif %}
       </li>
     {% endfor %}
