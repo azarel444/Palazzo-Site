@@ -1,0 +1,29 @@
+---
+layout: null
+pagination:
+  data: collections.blog
+  size: 1
+  alias: post
+permalink: "blog/{{ post.fileSlug }}/index.html"
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ post.data.title }} | Blog</title>
+    <meta name="description" content="{{ post.data.description | default('') }}">
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/webflow.css">
+    <link rel="stylesheet" href="/css/palazzo-site.webflow.css">
+  </head>
+  <body>
+    <main style="max-width:900px;margin:40px auto;">
+      <a href="/blog/">← Back to Blog</a>
+      <h1>{{ post.data.title }}</h1>
+      <p>{{ post.data.date | date: "%B %d, %Y" }}</p>
+      {{ post.templateContent | safe }}
+    </main>
+  </body>
+</html>
