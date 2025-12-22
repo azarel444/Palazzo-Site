@@ -21,7 +21,7 @@ permalink: "blog/index.html"
         <ul>
           {% for p in posts %}
             <li style="margin: 14px 0;">
-              <a href="/blog/{{ p.fileSlug }}/"><strong>{{ p.data.title }}</strong></a><br>
+             <a href="/blog/{{ p.filePathStem | replace('/blog/','') }}/"><strong>{{ p.data.title }}</strong></a><br>
               <small>{{ p.data.date | date: "%B %d, %Y" }}</small>
               {% if p.data.description %}<div>{{ p.data.description }}</div>{% endif %}
             </li>
