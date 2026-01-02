@@ -44,6 +44,15 @@ function rewrite(html) {
     html = html.replaceAll(`data-video-urls="${folder}/`, `data-video-urls="/${folder}/`);
   }
 
+  // FIX: responsive images often use srcset="images/..." (browser prefers srcset over src)
+  // Convert srcset entries to root-relative so /portfolio/ doesn't try /portfolio/images/...
+  html = html.replace(/srcset="([^"]+)"/g, (match, val) => {
+    // Replace occurrences of images/ that are at the start of the value or follow a space/comma
+    // but aren't already /images/
+    const fixed = val.replace(/(^|[\s,])(images\/)/g, "$1/images/");
+    return `srcset="${fixed}"`;
+  });
+
   // nav/page links: href="about.html" -> href="/about.html"
   for (const pf of PAGE_FILES) {
     html = html.replaceAll(`href="${pf}"`, `href="/${pf}"`);
