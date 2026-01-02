@@ -475,7 +475,7 @@
   grid-template-columns: .4fr .4fr;
   grid-auto-columns: 1fr;
   grid-auto-flow: row;
-  place-content: center;
+  place-content: center space-between;
   place-items: center;
   width: 100%;
   max-width: 800px;
@@ -1801,17 +1801,33 @@
     border-radius: 8px;
   }
 
+  .renderexamples {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .div-block-14 {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     grid-template-columns: .5fr .5fr;
   }
 
+  .div-block-15 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .paragraph {
+    width: 100%;
+  }
+
   .div-block-16 {
+    width: 100%;
     padding-right: 20px;
   }
 
   .div-block-17 {
+    width: 700px;
     height: 250px;
   }
 
@@ -1827,6 +1843,10 @@
 
   .div-block-25 {
     height: auto;
+  }
+
+  .div-block-54 {
+    width: 100%;
   }
 }
 
@@ -2093,6 +2113,7 @@
 
   .div-block-18 {
     flex-flow: wrap;
+    width: 100%;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
@@ -2123,7 +2144,7 @@
     height: 100%;
   }
 
-  .trustbloc.reviews, .trustblochead {
+  .div-block-22, .trustbloc.reviews, .trustblochead {
     width: 100%;
   }
 
@@ -2163,6 +2184,7 @@
   }
 
   .div-block-54 {
+    width: 100%;
     height: auto;
   }
 }
