@@ -2063,9 +2063,15 @@
     height: auto;
   }
 
+  .container {
+    background-color: #0000;
+  }
+
   .nav-menu {
+    z-index: 3;
     background-color: #000000fc;
     border-radius: 8px;
+    font-family: Vollkorn, serif;
     top: 60px;
     left: -98px;
   }
@@ -2217,11 +2223,7 @@
     height: auto;
   }
 
-  .menu-button {
-    background-color: #c8c8c882;
-  }
-
-  .menu-button.w--open {
+  .menu-button, .menu-button.w--open {
     background-color: #c8c8c800;
   }
 }
