@@ -2054,6 +2054,10 @@
     display: flex;
   }
 
+  .name {
+    color: #fff;
+  }
+
   .background-video-3 {
     height: auto;
   }
@@ -2079,12 +2083,14 @@
   .div-block-11 {
     justify-content: flex-start;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .subheading {
     width: auto;
+    font-weight: 400;
   }
 
   .div-block-12 {
@@ -2092,7 +2098,7 @@
   }
 
   .renderexamples {
-    padding: 20px 10px;
+    padding: 20px;
   }
 
   .image-10 {
@@ -2119,8 +2125,8 @@
     flex-flow: column;
     height: auto;
     padding-bottom: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .paragraph {
@@ -2156,9 +2162,7 @@
 
   .ouprocess {
     flex-flow: column;
-    padding-top: 60px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 60px 20px;
   }
 
   .div-block-19 {
@@ -2205,8 +2209,7 @@
   }
 
   .section-6 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 20px 20px 60px;
   }
 
   .background-video-7 {
@@ -2218,13 +2221,188 @@
     padding-right: 20px;
   }
 
+  .section-7 {
+    height: auto;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .div-block-33 {
+    width: 100%;
+  }
+
+  .gallerygrid {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 1px solid #ecc238;
+    border-radius: 8px;
+    grid-template-rows: repeat(auto-fit, 113px);
+    grid-template-columns: .5fr;
+    grid-template-areas: "Area Area-2";
+    grid-auto-columns: .5fr;
+    grid-auto-flow: row;
+    place-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .paragraph-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .paragraph-5 {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text-block-7 {
+    text-align: center;
+  }
+
+  .processhero {
+    height: auto;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-10 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .paragraph-6, .paragraph-8 {
+    width: 100%;
+  }
+
+  .div-block-42 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .div-block-43 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .section-11 {
+    height: auto;
+  }
+
+  .div-block-44 {
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .div-block-45 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .paragraph-9, .div-block-46 {
+    width: 100%;
+  }
+
+  .section-13 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .div-block-47 {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .section-14 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .div-block-49 {
+    flex-flow: column;
+    width: 100%;
+  }
+
+  .div-block-50 {
+    flex-flow: column;
+  }
+
+  .div-block-51 {
+    width: auto;
+    height: 300px;
+  }
+
+  .div-block-51.single {
+    flex-flow: column;
+    width: 100%;
+    height: 400px;
+  }
+
+  .div-block-52.single {
+    height: 100%;
+  }
+
+  .div-block-53, .div-block-53.single {
+    height: auto;
+  }
+
   .div-block-54 {
     width: 100%;
     height: auto;
   }
 
+  .brandstory, .designphilosophy {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .serviceares {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-15 {
+    height: auto;
+  }
+
+  .div-block-56, .section-16 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text-block-11 {
+    width: 100%;
+  }
+
+  .section-17 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .div-block-59 {
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+  }
+
+  .div-block-61 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .menu-button, .menu-button.w--open {
     background-color: #c8c8c800;
+  }
+
+  .icon, .menu-button-2, .menu-button-3, .icon-2, .menu-button-4 {
+    color: #fff;
   }
 }
 
