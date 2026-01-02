@@ -8,3 +8,11 @@
     "@11ty/eleventy": "^2.0.1"
   }
 }
+
+{
+  "name": "palazzo-site",
+  "private": true,
+  "scripts": {
+    "build": "node fix-webflow-paths.js"
+  }
+}
