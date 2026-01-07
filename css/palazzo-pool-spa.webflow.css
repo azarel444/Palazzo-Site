@@ -2392,7 +2392,7 @@
   }
 
   .section-7 {
-    background-image: linear-gradient(#000 5%, #0000004d 33%), radial-gradient(circle, #0000004d 35%, #000), url('../images/7589.avif');
+    background-image: linear-gradient(#000 20%, #0000004d 43%), radial-gradient(circle, #0000004d 35%, #000), url('../images/7589.avif');
     background-position: 0 0, 0 0, 50%;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
@@ -2448,10 +2448,14 @@
   }
 
   .processhero {
+    background-image: linear-gradient(#000 16%, #0000004d 45%), url('../images/486525764_1060566316090980_5304657300833425711_n.avif');
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
     height: auto;
     padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .section-10 {
@@ -2586,6 +2590,10 @@
   }
 
   .abouthero {
+    background-image: linear-gradient(#000 11%, #0000 33%), linear-gradient(#00000080, #00000080), url('../images/10.jpg');
+    background-position: 0 0, 0 0, 50%;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
     height: auto;
   }
 
@@ -2629,6 +2637,10 @@
   }
 
   .herocontact {
+    background-image: linear-gradient(#000 6%, #00000078 24%), url('../images/432907965_807242864756661_2930625088065947405_n.jpg');
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
     height: auto;
   }
 
@@ -2642,6 +2654,19 @@
 
   ._3dvisualshero {
     height: auto;
+  }
+
+  .menu-button-5, .menu-button-5.w--open {
+    background-color: #000;
+  }
+
+  .nav-menu-2 {
+    background-color: #000;
+    top: auto;
+  }
+
+  .nav-menu-3, .menu-button-6, .menu-button-6.w--open, .nav-menu-4, .menu-button-7, .menu-button-7.w--open, .nav-menu-5, .menu-button-8, .menu-button-8.w--open, .nav-menu-6, .menu-button-9, .menu-button-9.w--open, .nav-menu-7, .menu-button-10, .menu-button-10.w--open, .nav-menu-8, .menu-button-11, .menu-button-11.w--open {
+    background-color: #000;
   }
 }
 
