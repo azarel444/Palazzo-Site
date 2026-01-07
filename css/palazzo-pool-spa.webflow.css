@@ -272,31 +272,49 @@
 }
 
 .div-block-9 {
+  flex: none;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 80px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 0;
+  padding-right: 0;
   display: flex;
 }
 
 .div-block-10 {
-  width: auto;
-  height: 80px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-left: 40px;
+  display: flex;
 }
 
 .image-9 {
-  height: 80px;
+  object-fit: fill;
+  flex: none;
+  height: 75px;
+  display: block;
 }
 
 .navbar {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-align: left;
   background-color: #0000;
-  height: 80px;
+  flex: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  display: flex;
 }
 
 .container {
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 80px;
   display: flex;
 }
@@ -336,8 +354,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100dvh;
-  padding-bottom: 100px;
+  height: 100%;
+  padding-bottom: 0;
   display: flex;
 }
 
@@ -353,7 +371,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   font-family: Great Vibes, cursive;
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 3.5rem;
 }
@@ -369,6 +387,15 @@
   background-clip: text;
   font-size: 3rem;
   line-height: 4rem;
+}
+
+.headline.gradients.smaller {
+  font-size: 2rem;
+}
+
+.headline.gradients.small {
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .subheading {
@@ -1054,11 +1081,13 @@
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
+  flex-flow: column;
   height: 100%;
-  display: block;
+  display: flex;
 }
 
 .div-block-32 {
+  border-bottom: 2px solid #ecc238;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -1292,30 +1321,38 @@
 
 .body-6 {
   background-color: #000;
-  height: 100dvh;
 }
 
-.section-11 {
+._3dhero {
   background-image: linear-gradient(#000 5%, #0000004d 24%);
-  width: 100%;
-  height: 100%;
+  flex-flow: column;
+  width: auto;
+  height: 100dvh;
+  display: flex;
 }
 
 .background-video-9 {
   background-image: radial-gradient(circle, #0000004a 19%, #000), linear-gradient(#0000 63%, #000 95%), linear-gradient(#000 7%, #0000 41%);
   flex-flow: column;
+  flex: 0 auto;
   justify-content: flex-start;
   align-items: center;
-  height: 100%;
+  height: 100vh;
   display: flex;
 }
 
 .div-block-44 {
+  background-image: linear-gradient(#04040400 74%, #000), linear-gradient(#00000080, #00000080), url('../images/Frank-Porfido-v2_039.jpg');
+  background-position: 0 0, 0 0, 50%;
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: flex;
 }
 
@@ -1332,8 +1369,8 @@
 }
 
 .div-block-45 {
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -1574,7 +1611,7 @@
   align-items: center;
   width: 100%;
   height: auto;
-  padding-top: 60px;
+  padding-top: 0;
   padding-bottom: 60px;
   display: flex;
 }
@@ -1625,8 +1662,15 @@
   background-size: auto, cover;
   flex-flow: column;
   width: 100%;
-  height: 600px;
+  height: auto;
   display: flex;
+}
+
+.section-15.contact {
+  background-image: linear-gradient(#000 10%, #0000 36%);
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
 }
 
 .div-block-56 {
@@ -1705,22 +1749,26 @@
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
+  flex-flow: column;
+  display: flex;
 }
 
 .abouthero {
-  background-image: linear-gradient(#000 5%, #0000 33%), linear-gradient(#00000080, #00000080);
-}
-
-.div-block-59 {
-  background-image: linear-gradient(#000 6%, #0000 30%), linear-gradient(#000000b0, #000000b0), url('../images/Santos_002.avif');
+  background-image: linear-gradient(#000 5%, #0000 33%), linear-gradient(#00000080, #00000080), url('../images/10.jpg');
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
   flex-flow: column;
-  justify-content: center;
+  height: 100%;
+  display: flex;
+}
+
+.div-block-59 {
+  flex-flow: column;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 100dvh;
+  height: 80px;
   display: flex;
 }
 
@@ -1751,6 +1799,97 @@
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+}
+
+.text-block-12 {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  font-family: Vollkorn, serif;
+  font-size: .7rem;
+  line-height: .7rem;
+  display: block;
+}
+
+.infobloc {
+  border-bottom: 2px solid #ecc238;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.div-block-62 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.herocontact {
+  background-image: linear-gradient(#000 3%, #00000078 24%), url('../images/432907965_807242864756661_2930625088065947405_n.jpg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100dvh;
+  display: flex;
+}
+
+.servicehero {
+  background-image: linear-gradient(#000 4%, #00000070 30%), radial-gradient(circle, #0000, #000), url('../images/466397071_961930659287880_5197719942145916337_n.avif');
+  background-position: 0 0, 0 0, 50%;
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  flex-flow: column;
+  height: 100%;
+  display: flex;
+}
+
+.div-block-64 {
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.experiencehero {
+  flex-flow: column;
+  display: block;
+}
+
+._3dvisualshero {
+  flex-flow: column;
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  position: relative;
+}
+
+.div-block-65 {
+  flex-flow: column;
+  display: flex;
+  position: relative;
+}
+
+.section-19 {
+  width: 100%;
+  height: auto;
+}
+
+.logowrapper {
+  flex: none;
+  align-items: center;
+  display: flex;
+}
+
+.navbar-2 {
+  color: #fff;
+  background-color: #d7797900;
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {
@@ -1859,6 +1998,10 @@
 
   .menu-button.w--open {
     background-color: #c8c8c800;
+  }
+
+  .icon {
+    color: #fff;
   }
 }
 
@@ -2023,6 +2166,7 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 20px;
     font-size: 2rem;
   }
 
@@ -2068,6 +2212,15 @@
     height: auto;
   }
 
+  .div-block-9 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .div-block-10 {
+    padding-left: 0;
+  }
+
   .container {
     background-color: #0000;
   }
@@ -2084,14 +2237,30 @@
   .div-block-11 {
     justify-content: flex-start;
     align-items: center;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
+  .headline {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .headline.gradients {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
   .subheading {
     width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem;
     font-weight: 400;
+    line-height: 1.5rem;
   }
 
   .div-block-12 {
@@ -2223,10 +2392,24 @@
   }
 
   .section-7 {
+    background-image: linear-gradient(#000 5%, #0000004d 33%), radial-gradient(circle, #0000004d 35%, #000), url('../images/7589.avif');
+    background-position: 0 0, 0 0, 50%;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    border-bottom: 2px solid #ecc238;
     height: auto;
     padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .div-block-32 {
+    border-bottom-style: none;
+  }
+
+  .section-8 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .div-block-33 {
@@ -2255,6 +2438,7 @@
 
   .paragraph-5 {
     text-align: center;
+    margin-bottom: 0;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -2271,12 +2455,14 @@
   }
 
   .section-10 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .paragraph-6, .paragraph-8 {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .div-block-42 {
@@ -2289,23 +2475,27 @@
     height: 200px;
   }
 
-  .section-11 {
+  ._3dhero, .background-video-9 {
     height: auto;
   }
 
   .div-block-44 {
+    height: auto;
     padding-bottom: 60px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
   .div-block-45 {
-    padding-left: 20px;
-    padding-right: 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 10px 0 60px;
   }
 
   .paragraph-9, .div-block-46 {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .section-13 {
@@ -2363,6 +2553,10 @@
     padding-right: 20px;
   }
 
+  .div-block-55 {
+    width: 100%;
+  }
+
   .serviceares {
     padding-top: 20px;
     padding-left: 20px;
@@ -2387,10 +2581,22 @@
     padding-right: 20px;
   }
 
+  .div-block-57 {
+    padding-top: 40px;
+  }
+
+  .abouthero {
+    height: auto;
+  }
+
   .div-block-59 {
     justify-content: flex-start;
     align-items: center;
     height: auto;
+  }
+
+  .div-block-60 {
+    padding-bottom: 0;
   }
 
   .div-block-61 {
@@ -2404,6 +2610,38 @@
 
   .icon, .menu-button-2, .menu-button-3, .icon-2, .menu-button-4 {
     color: #fff;
+  }
+
+  .text-block-12 {
+    font-size: .6rem;
+  }
+
+  .image-26 {
+    width: 100%;
+  }
+
+  .div-block-63 {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+  }
+
+  .herocontact {
+    height: auto;
+  }
+
+  .servicehero {
+    background-image: linear-gradient(#000 4%, #00000070 30%), radial-gradient(circle, #0000000a, #000), url('../images/466397071_961930659287880_5197719942145916337_n.avif');
+    background-position: 0 0, 0 0, 50%;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    height: auto;
+  }
+
+  ._3dvisualshero {
+    height: auto;
   }
 }
 
