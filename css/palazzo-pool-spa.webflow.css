@@ -1342,7 +1342,7 @@
 }
 
 .div-block-44 {
-  background-image: linear-gradient(#04040400 74%, #000), linear-gradient(#00000080, #00000080), url('../images/Frank-Porfido-v2_039.jpg');
+  background-image: linear-gradient(#04040400 74%, #000), linear-gradient(#00000080, #00000080), url('../images/AJ_020.jpg');
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
@@ -1351,8 +1351,8 @@
   align-items: center;
   width: 100%;
   height: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 220px;
+  padding-bottom: 220px;
   display: flex;
 }
 
